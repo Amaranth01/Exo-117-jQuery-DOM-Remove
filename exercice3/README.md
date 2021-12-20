@@ -4,9 +4,6 @@ Consignes :
 
 - Créer le code jQuery approprié pour supprimer les éléments <p> ayant pour classe "test"
 
-
-
-
  Théorie :
 
  jQuery permet de supprimer des éléments html de façon plus pratique qu'en javascript natif.

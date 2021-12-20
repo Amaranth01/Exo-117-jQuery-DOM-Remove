@@ -4,9 +4,6 @@ Consignes :
 
 - Créer le code jQuery approprié pour supprimer uniquement les éléments enfants de l'élément <div>
 
-
-
-
  Théorie :
 
  jQuery permet de supprimer des éléments html de façon plus pratique qu'en javascript natif.
@@ -34,18 +31,16 @@ Consignes :
  En javascript natif, on pourrait faire document.getElementById('div1').innerHTML = "" ou parcourir dans une boucle
  tout les éléments enfants du conteneur et utiliser un removeChild sur chaque élément dans la boucle
 
-
-
  - La méthode remove() supporte également un filtre en parametre ce qui permet de supprimer les éléments de façon plus
  précises.
 
  Exemples :
 
- - Supprimer tout les éléments <p> ayant pour classe "test"
+ - Supprimer tous les éléments <p> ayant pour classe "test"
 
  $("p").remove(".test");
 
 
- - Supprimer tout les éléments <p> ayant pour classe "test" ou "demo"
+ - Supprimer tous les éléments <p> ayant pour classe "test" ou "demo"
 
   $("p").remove(".test, .demo");
